@@ -25,15 +25,16 @@
 }
 
 #h-nav {
+    z-index: 9998;
     position: sticky;
     top: 0px;
     display: flex;
     margin-left: 8vw;
     height: 8vh;
+    border-bottom: 1px solid #e7e7e7;
 }
 
 #h-nav>.h-nav-item {
-    background-color: #f1f1f1;
     line-height: 2vh;
     font-size: 1.5vw;
     flex-grow: 1;
