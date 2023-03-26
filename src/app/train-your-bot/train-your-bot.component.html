@@ -1,0 +1,26 @@
+<h4>Add a new utterance</h4>
+<p>Create an intent and add multiple utterances to let Instinct AI answers automatically.</p>
+<button class="add-intent-btn" (click)="addIntent()">+ Add intents</button>
+<hr>
+<div class="head">
+    <div>
+        a
+    </div>
+    <div>
+        b
+    </div>
+    <!-- <label for="sort">Sort by </label>
+    <select name="sort" id="">
+        <option value="Priority" selected>Priority</option>
+        <option value="">Unanswered</option>
+        <option value="">Improve coverage</option>
+        <option value="">Underperforming</option>
+    </select> -->
+</div>
+<hr>
+<div>
+    <div *ngFor="let card of cardArray">
+            <app-intent-card [card]="card"></app-intent-card>
+    </div>
+</div>
+<app-intent *ngIf="cardService.openPopup"></app-intent>

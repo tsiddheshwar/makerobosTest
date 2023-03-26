@@ -1,0 +1,11 @@
+.add-intent-btn{
+    padding: 5px 10px;
+    background-color: #00826b;
+    color: white;
+    border: #00826b;
+    border-radius: 2px;
+}
+.head{
+    display: inline-flex;
+    align-items: baseline;
+}

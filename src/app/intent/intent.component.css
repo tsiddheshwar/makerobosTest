@@ -1,0 +1,41 @@
+.intent-add{
+    position: absolute;
+    top:10vh;
+    left:40vw;
+    width: 40vw;
+    height: 66vh;
+    background-color: white;
+    padding: 3vh 5vw;
+    border-radius: 3px;
+    overflow-y: hidden;
+}
+.backdrop{
+    margin: 1vw;
+    position: absolute;
+    width: 96vw;
+    height: 90vh;
+    top: 7vh;
+    left: 3vw;
+    background-color: rgba(46, 46, 46, 0.663);
+}
+.input{
+    width: 100%;
+}
+.intent-name > .input{
+    width: 50%;
+}
+.addBtn{
+    font-size: 1.5vh;
+    color: black;
+    border: 1px solid #bcbcbc;
+    border-radius: 2px;
+}
+.createIntentbtn{
+    color: white;
+    align-self: center;
+    background-color: #00826b;
+    border-radius: 2px;
+    border: #00826b;
+    padding: 5px 15px;
+    margin-left: 35%;
+}

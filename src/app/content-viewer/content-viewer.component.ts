@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CardsService } from '../cards.service';
 
 @Component({
   selector: 'app-content-viewer',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./content-viewer.component.css']
 })
 export class ContentViewerComponent {
+  constructor(public cardsService: CardsService){
 
+  }
 }
