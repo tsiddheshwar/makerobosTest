@@ -1,6 +1,6 @@
 <div class="card-container">
-    <div *ngFor="let card of cardArray">
+    <div *ngFor="let card of cardArray; last as la;">
         <app-card [isSelected]="card.isSelected" [card]=card (click)="cardClicked(card)"></app-card>
-        <hr style="color: #e7e7e7;">
+        <hr *ngIf="!la" style="color: #e7e7e7;">
     </div>
 </div>

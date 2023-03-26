@@ -7,6 +7,12 @@ import { NavBarsComponent } from './nav-bars/nav-bars.component';
 import { CardContainerComponent } from './card-container/card-container.component';
 import { CardComponent } from './card/card.component';
 import { ContentViewerComponent } from './content-viewer/content-viewer.component';
+import { TrainYourBotComponent } from './train-your-bot/train-your-bot.component';
+import { IntentsComponent } from './intents/intents.component';
+import { CatchAllComponent } from './catch-all/catch-all.component';
+import { AnalyticsComponent } from './analytics/analytics.component';
+import { IntentCardComponent } from './intent-card/intent-card.component';
+import { IntentComponent } from './intent/intent.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +20,13 @@ import { ContentViewerComponent } from './content-viewer/content-viewer.componen
     NavBarsComponent,
     CardContainerComponent,
     CardComponent,
-    ContentViewerComponent
+    ContentViewerComponent,
+    TrainYourBotComponent,
+    IntentsComponent,
+    CatchAllComponent,
+    AnalyticsComponent,
+    IntentCardComponent,
+    IntentComponent
   ],
   imports: [
     BrowserModule,

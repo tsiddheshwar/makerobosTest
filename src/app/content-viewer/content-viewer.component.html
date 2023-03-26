@@ -1,1 +1,6 @@
-<p>content-viewer works!</p>
+<div class="content-viewer">
+    <app-train-your-bot *ngIf="cardsService.selectedCard.name == 'Train Your Bot'"></app-train-your-bot>
+    <app-intents *ngIf="cardsService.selectedCard.name == 'Intents'"></app-intents>
+    <app-catch-all *ngIf="cardsService.selectedCard.name == 'Catch all'"></app-catch-all>
+    <app-analytics *ngIf="cardsService.selectedCard.name == 'Analytics'"></app-analytics>
+</div>

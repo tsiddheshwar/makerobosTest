@@ -2,3 +2,10 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+p{
+    font-size: 1.5vh;
+    color: #adabab;
+}
+button{
+    margin-top: 2vh;
+}
