@@ -1,7 +1,15 @@
 .container{
-    height: 500px;
-    border: 1px;
-    margin-left: 6vw;
-    background-color: red;
+    padding: 1vh;
+    height: 89vh;
+    margin-left: 8vw;
+    background-color: #f2f2f2;
     width: auto;
+    display: inline-flex
+}
+
+.content{
+    margin-top: -1vh;
+    margin-right: -1vh;
+    width: 65.5vw;
+    background-color: #ffffff;
 }
